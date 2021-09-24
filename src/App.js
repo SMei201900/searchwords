@@ -1,19 +1,20 @@
 import tempphoto from "./tempphoto.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
+import Credits from "./Credits";
 
 export default function App() {
 	return (
 		<div className="App">
 			<div className="container">
-				<h1>Cats</h1>
+				<h1>Dictionary</h1>
 				<img src={tempphoto} className="cat" alt="cat" width={500} />
 				<br />
 				<main>
 					{" "}
 					<Dictionary />
 				</main>
-				<footer> Open Source Code by Sally Mei</footer>
+				<Credits />
 			</div>
 		</div>
 	);
