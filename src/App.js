@@ -8,6 +8,7 @@ export default function App() {
 			<div className="container">
 				<h1>Cats</h1>
 				<img src={tempphoto} className="cat" alt="cat" width={500} />
+				<br />
 				<main>
 					{" "}
 					<Dictionary />
