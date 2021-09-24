@@ -2,7 +2,7 @@ h1 {
 	text-align: center;
 }
 
-staringcat {
+.staringcat {
 	display: block;
-	margin: 20 auto;
+	margin: 0 auto;
 }
