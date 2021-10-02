@@ -1,4 +1,4 @@
-import tempphoto from "./tempphoto.jpg";
+import book from "./book.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 import Credits from "./Credits";
@@ -8,13 +8,16 @@ export default function App() {
 		<div className="App">
 			<div className="container">
 				<h1>Dictionary</h1>
-				<img src={tempphoto} className="cat" alt="cat" width={500} />
+				<img src={book} className="book" alt="book" width={500} />
 				<br />
 				<main>
 					{" "}
 					<Dictionary />
 				</main>
-				<Credits />
+				<section>
+					{" "}
+					<Credits />{" "}
+				</section>
 			</div>
 		</div>
 	);

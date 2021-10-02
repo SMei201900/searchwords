@@ -1,0 +1,31 @@
+.dictionary section {
+	background-color: beige;
+	padding: 30px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #fffdd0;
+	margin: 20px 5px;
+}
+
+div.searchEngine {
+	display: block;
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+	text-align: left;
+}
+
+.dictionary input {
+	width: 800px;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	color: #000000;
+	margin: 10px;
+}
+
+.hint {
+	font-size: 15px;
+	margin-top: 5px;
+}
