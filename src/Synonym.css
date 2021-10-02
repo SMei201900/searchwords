@@ -1,7 +1,9 @@
-.Synonym {
+.Synonyms {
 	margin: 0;
 }
 
-.Synonym li {
+.Synonyms li {
+	padding: 0px;
+	font-size: 15px;
 	display: inline block;
 }
