@@ -25,6 +25,8 @@ export default function Dictionary() {
 	return (
 		<div className="dictionary">
 			<section>
+				<h1> What are you looking for?</h1>
+
 				<div className="searchEngine">
 					<form onSubmit={search}>
 						<input
