@@ -11,26 +11,22 @@ export default function Dictionary() {
 		setResults(response.data[0]);
 	}
 
-	function search() {
+	function search(event) {
+		event.preventDefault();
 		//documentation: https://dictionaryapi.dev/
 		let apiURL = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
 		axios.get(apiURL).then(handleResponse);
 	}
 
-	function handleSubmit(event) {
-		event.preventDefault();
-	}
-
 	function handleKeywordChange(event) {
 		setKeyword(event.target.value);
-		search();
 	}
 
 	return (
 		<div className="dictionary">
 			<section>
 				<div className="searchEngine">
-					<form onSubmit={handleSubmit}>
+					<form onSubmit={search}>
 						<input
 							type="search"
 							autoFocus={true}

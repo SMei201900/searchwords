@@ -1,0 +1,8 @@
+.Meaning .definition {
+	margin: 10px 0px;
+}
+
+.Meaning .example {
+	font-style: italic;
+	opacity: 0.7;
+}
