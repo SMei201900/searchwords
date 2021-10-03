@@ -2,7 +2,7 @@
 	font-size: 30px;
 }
 
-.dictionary section {
+.dictionary .results {
 	background-color: beige;
 	padding: 20px 50px;
 	border-radius: 15px;

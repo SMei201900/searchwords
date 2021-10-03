@@ -3,3 +3,11 @@
 	margin-bottom: 10px;
 	margin-left: 3px;
 }
+
+.Photos .row {
+	background-color: beige;
+	padding: 20px 50px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #fffdd0;
+	margin: 20px 5px;
+}
