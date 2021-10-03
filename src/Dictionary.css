@@ -21,9 +21,9 @@ form {
 }
 
 .dictionary input {
-	width: 800px;
+	width: 300px;
 	padding: 5px;
-	border: 1px solid #ddd;
+	border: 1px solid #fbceb1;
 	border-radius: 8px;
 	color: #000000;
 	margin: 10px;

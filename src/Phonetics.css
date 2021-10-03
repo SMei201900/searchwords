@@ -3,6 +3,7 @@
 }
 
 .Phonetic a {
+	color: #0096ff;
 	border: 1px solid #afe1af;
 	text-decoration: none;
 	padding: 10px 20px;
@@ -18,4 +19,18 @@
 .pronounce {
 	opacity: 0.7;
 	font-weight: bold;
+}
+
+.noAudio {
+	color: #0096ff;
+	border: 1px solid #afe1af;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	transition: all 150ms ease-in-out;
+}
+
+.noAudio:hover {
+	background: #9caf9c;
+	color: #f0ffff;
 }
